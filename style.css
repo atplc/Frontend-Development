@@ -81,10 +81,15 @@ h2 {
 }
 
 #courses {
-    display: grid;
+   display: flex;
+   flex-direction: column;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 29px;
     margin: 4%;
+}
+.course-split{
+   display: flex;;
+   justify-content: space-evenly;
 }
 
 h5 {
@@ -99,13 +104,26 @@ h5 {
     display: flex;
     flex-direction: column;
     cursor: pointer;
+    width: 30%
 }
 
+.image-container{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-container img{
+    width: 100%;
+    min-width: 50px;
+    
 
-.img img{
-    height: 100px;
-    width: 100px;
-
+}
+.heading-container{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #card .img {
@@ -115,6 +133,8 @@ h5 {
     color: rgb(46, 1, 1);
     /*background-image: linear-gradient(to right, rgb(253, 5, 5), rgb(139, 3, 250));*/
     background-color: #B088F9;
+    display: flex;
+
 }
 
 #contact {
@@ -182,6 +202,34 @@ h5 {
     }
 }
 
+@media (max-width: 950px){
+   .img{
+       flex-direction: column;
+   }
+   .image-container{
+       width: 100%;
+   }
+   .heading-container{
+       width: 100%;
+   }
+   .image-container img{
+       width: 100px;
+       height: 100px;
+   }
+}
+@media (max-width: 727px)
+{   .course-split{
+       flex-direction: column;
+     }
+    #card{
+        width: 100%;
+        margin-bottom: 1em;
+    }
+    .image-container img{
+        width: 30%;
+        height: 30%;
+    }
+}
 #card p {
     padding: 4% 7%;
 }
@@ -200,7 +248,7 @@ h5 {
 
 .img img {
     float: left;
-    padding: 5% 5%;
+    padding: 4% 10%;
 }
 
 nav ul li:hover {
@@ -258,4 +306,7 @@ button {
 
 .icon{
     margin:0 1rem;
+}
+.network{
+    margin-left: 1em;
 }
