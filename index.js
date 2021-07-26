@@ -1,4 +1,4 @@
-var per = ["per1.jpg", "per2.jpg", "per3.jpg"];
+var per = ["images/per1.jpg", "images/per2.jpg", "images/per3.jpg"];
 var i = 0;
 
 var para = ["Really nice experience.Praesent lacinia, leo eget consectetur hendrerit, neque sem tincidunt felis, vel aliquam diam mi vel massa. Donec ut nisi non enim hendrerit scelerisque.", "Lots of learning.gula. Nulla facilisi. Mauris metus erat, tincidunt eget tellus at, placerat hendrerit eros. Aenean id faucibus est. Nullam elementum dolor risus, ut consequat nisl accumsan non. Etiam viverra elementum diam et facilisis. Morbi id interdum mauris. Donec b", "More problems and challenges to learn.perdiet arcu. Praesent porttitor auctor blandit. Nullam imperdiet luctus malesuada. Phasellus commodo porta molestie. Praesent lacinia, leo eget consectetur hendrerit, neque sem tincidunt felis, vel aliquam diam mi vel massa. Donec ut nisi non enim hendrerit scelerisque."]
