@@ -586,6 +586,7 @@ footer{
   font-size: 1.0625rem;
   font-weight: 500;
   padding-left: 10px;
+  color: white;
 }
 .center .content .phone{
   margin: 15px 0;
@@ -625,6 +626,7 @@ footer{
   font-weight: 500;
   cursor: pointer;
   transition: .3s;
+  color: white;
 }
 .right form .btn button:hover{
   background: #B088F9;
