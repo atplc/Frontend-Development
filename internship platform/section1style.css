@@ -86,18 +86,20 @@ body{
 @media (max-width: 896px){
     #section1{
         flex-direction: column;
-
+        background-color: white;
     }
     #form{
         width: 100%;
+        height: 50%;
+        background-color: #B088F9;
     }
     #image{
-        order: -1;
         width: 100%;
+        height: 100%;
     }
     #image img{
         width: 100%;
-        height: 100%;
+       
     }
     
 
