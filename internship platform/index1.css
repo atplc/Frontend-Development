@@ -414,6 +414,7 @@ text-align: center;
 
   .team{
   text-align: center;
+  margin:5rem 0 0 0;
   }  
 
   .row {
@@ -464,7 +465,7 @@ text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin:0 5%;
+    margin:5% 5%;
   }
   .testimonial1{
     text-align: center;
@@ -670,7 +671,7 @@ nav ul li:hover {
   margin:0 1rem;
 }
 
-footer{
+footer{  
   position: relative;
   bottom: 0px;
   width: 100%;
