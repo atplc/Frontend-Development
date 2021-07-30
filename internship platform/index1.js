@@ -3,6 +3,26 @@ $(document).ready(function(){
         $('ul').toggleClass('show');
     });
 });
+
+// Get the modal of login form
+    var modal = document.getElementById('id01');
+
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+// Get the modal of signup form
+    var modal1 = document.getElementById('id02');
+
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+
+
+
 //Get the button
 var mybutton = document.getElementById("myBtn");
 
