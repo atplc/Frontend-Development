@@ -1017,4 +1017,9 @@ footer{
   }
 }
 
-
+@media (max-width:896px){
+  
+  .container2{
+    margin: auto;
+  }
+}
