@@ -156,7 +156,7 @@ input[type=text], input[type=password] {
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
-button {
+.button {
   background-color: #04AA6D;
   color: white;
   padding: 14px 20px;
@@ -165,7 +165,7 @@ button {
   cursor: pointer;
   width: 100%;
 }
-button:hover {
+.button:hover {
   opacity: 0.8;
 }
 .cancelbtn {
@@ -194,7 +194,7 @@ span.psw {
   padding-top: 60px;
 }
 .modal-content {
-  background-image: linear-gradient(#B088F9,white);
+  background-color:#B088F9;
   margin: 5% auto 15% auto; 
   border: 1px solid #888;
   width: 50%; 
@@ -247,7 +247,7 @@ input[type=text]:focus, input[type=password]:focus {
   outline: none;
 }
 
-button {
+.button {
   background-color: #04AA6D;
   color: white;
   padding: 14px 20px;
@@ -258,7 +258,7 @@ button {
   opacity: 0.9;
 }
 
-button:hover {
+.button:hover {
   opacity:1;
 }
 
@@ -290,7 +290,7 @@ button:hover {
 }
 
 .modal1-content {
-  background-image: linear-gradient(#B088F9,white);
+  background-color: #B088F9;
   margin: 5% auto 15% auto; 
   border: 1px solid #888;
   width: 50%; 
