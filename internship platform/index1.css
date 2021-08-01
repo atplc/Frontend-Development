@@ -115,7 +115,7 @@ nav #icon{
   }
   a.active,a:hover{
     border: none;
-    color: white;
+    color: #B088F9;
   }
   nav ul.show{
     right: 0;
