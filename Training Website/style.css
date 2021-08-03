@@ -137,22 +137,6 @@ h5 {
 
 }
 
-
-#feedback{
-    background-color: #fff;
-    width:100%;
-    height:auto;
-    /* align-items: center; */
-    padding: 2% 4%;
-    display: flex;
-    justify-content: center;
-}
-
-.container3{
-    border: solid 2px #ccc;
-    /* height:100%; */
-    width:80%;
-}
 .feedbackContainer{
     background: #fff;
     opacity: 10;
@@ -162,29 +146,11 @@ h5 {
     margin-right: 8%; */
     box-shadow: #666;
     border-radius: 2rem;
-
     display:flex;
     flex-direction: column;
     justify-content: center;
 }
 
-
-
-.right_sec{
-    width:60%;
-}
-
-
-.right_sec >img{
-    width:100%;
-}
-
-.left_sec{
-    width:40%;
-    padding:1rem;
-}
-.left_sec >h3{
-}
 .row{
 }
 
@@ -239,18 +205,47 @@ h5 {
 }
 
 .feedbackImage{
-
     text-align: center;
-    font-size: 25px;
-
-}
-input{
-    width:90%;
-    margin: 1rem;
-    font-size: 20px;
 }
 
+.feedbackImage img{
+    border-radius: 10rem;
+    width: 20%;
+    margin-top: -5%;
+}
 
+.feedbackContainer form{
+    padding: 4%;
+    
+}
+
+.feedbackContainer form .row{
+    margin-bottom: -3%;
+    
+}
+
+.feedbackContainer form h2{
+    margin-bottom: 7%;
+    margin-top: -5%;
+    text-align: center;
+    color: #B088F9;
+    font-size: 50px;
+}
+
+.feedbackContainer .btn{
+    width: 20%;
+    height: 5%;
+    border: none;
+    border-radius: 2rem;
+    padding: 1.5%;
+    margin-left: 2%;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-size: 15px;
+    background: #777;
+    color: #fff;
+    cursor: pointer;
+}
 
 .feedbackContainer .row h2{
     margin-left: 2%;
@@ -399,6 +394,10 @@ nav ul li:hover {
     display: inline;
 }
 
+#feedback {
+    padding: 2% 4%;
+    display: flex;
+}
 
 /* .feedbackpara {} */
 

@@ -25,7 +25,6 @@ nav{
   width: 50%;
   background-color:#B088F9;
 }
-
 nav ul{
   float: left;
   padding-left:2rem;
@@ -206,10 +205,15 @@ img{
 .login .close-btn:hover{
   color: red;
 }
+
 .btn-show{
   background: #fff;
   padding: 10px 20px;
   font-size: 20px;
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> parent of f108adb (Revert "commited")
   color: #3498db;
   cursor: pointer;
   position: absolute;
