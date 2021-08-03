@@ -8,10 +8,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index1.css">
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 
@@ -19,10 +19,11 @@
 <body>
  
 <!-- navbar -->
+<<<<<<< HEAD
 <div class="container">
   <nav>
      <label id="icon">
-          <i class="fas fa-bars" ></i> 
+          <i class="fas fa-bars show" ></i> 
      </label>
      <ul>
        <li><a class="active" href="#">Home</a></li>
@@ -32,6 +33,20 @@
      </ul>
    </nav>
  </div>
+=======
+ <nav>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+          <li><a href="#showb" class="active">Home</a></li>
+          <li><a href="#internships">Internships</a></li>
+          <li><a href="#teams">Team</a></li>
+          <li><a href="#testimonial">Testimonials</a></li>
+        </ul>
+     </nav>
+>>>>>>> e3eb2dcd5b7d345d8f05907f7895710ccd41929d
   <!--login form-->
   <input type="checkbox" id="showb">
         <label for="showb" class="btn-show">SignUp/Login</label>
@@ -123,7 +138,7 @@
   </div>
 </div>
 <!-- sec2 -->
-
+<div id="internships"></div>
 <h2>Internships we Provide</h2>
 <div class="img-area" >
     <div class="container2" data-aos="fade-up" data-aos-duration="6000">
@@ -160,6 +175,7 @@
 
 
 <!-- Team -->
+<div id="teams"></div>
 <div class="team">
   <h1>
     TEAM
@@ -202,6 +218,7 @@
 </div>
 
 <!-- Testimonial-->
+<div id="testimonial"></div>
 <div class="testimonial">
 <div class="slideshow-container">
   <h2 class="testimonial1">Testimonials</h2>
@@ -216,7 +233,7 @@
   </div>
   
   <div class="mySlides">
-    <q>Lorem ipsum dolor lorem sit amet consectetur adipisicing elit. Asperiores dolor doloremque ullam exercitationem, optio dolore ipsa, nisi assumenda quisquam aspernatur est numquam magnam voluptatum explicabo deleniti tempore eligendi doloribus fugit.</q>
+    <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor doloremque ullam exercitationem, optio dolore ipsa, nisi assumenda quisquam aspernatur est numquam magnam voluptatum explicabo deleniti tempore eligendi doloribus fugit.</q>
     <p class="author">- XYZ(ML)</p>
   </div>
   
@@ -232,11 +249,27 @@
   </div>
 </div>
 <!-- footer -->
+
 <footer>
-      <div class="main-content"  data-aos="fade-up" data-aos-duration="6000">
-        <div class="left box">
-          <h2> Follow Us </h2>
-          <div class="content">
+  <div class="footer1">
+    <div class="sec1">
+      <h2 class="head">Company Name</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quas voluptatibus amet sequi necessitatibus odit rem soluta? </p>
+    </div>
+    <div class="sec1">
+      <h2 class="head ">Address</h2>
+      <div class="content">
+     <span class="fas fa-map-marker-alt"></span>
+     <span class="text">123 street Colony District </span> <br>
+     <span class="fas fa-phone-alt"></span>
+     <span class="text">1234567890</span>  <br>
+      <span class="fas fa-envelope"></span>
+      <span class="text">abc@example.com</span>
+      </div>
+    </div>
+    <div class="sec1">
+      <h2 class="head">Follow Us</h2>
+      <div class="content">
               <div class="social">
               <a href="#"><span class="fab fa-facebook-f"></span></a>
               <a href="#"><span class="fab fa-twitter"></span></a>
@@ -244,49 +277,19 @@
               <a href="#"><span class="fab fa-youtube"></span></a>
             </div>
           </div>
-        </div>
-        <div class="center box"  data-aos="fade-up" data-aos-duration="6000">
-          <h2>Address</h2>
-          <div class="content">
-            <div class="place">
-              <span class="fas fa-map-marker-alt"></span>
-              <span class="text">123 street Colony District State 123 456</span>                  
-            </div>
-            <div class="phone">
-              <span class="fas fa-phone-alt"></span>
-              <span class="text">1234567890</span>
-            </div>
-            <div class="email">
-              <span class="fas fa-envelope"></span>
-              <span class="text">abc@example.com</span>
-            </div>
-          </div>
-        </div>
-        <div class="right box"  data-aos="fade-up" data-aos-duration="6000">
-          <h2>Contact us</h2>
-          <div class="content">
-            <form action="#">
-              <div class="email">
-                <div class="text">Email *</div>
-                <input type="email" required>
-              </div>
-              <div class="msg">
-                <div class="text">Message *</div>
-                <textarea rows="2" cols="25" required></textarea>
-              </div>
-              <div class="btn">
-                <button type="submit">Send</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-      <div class="bottom">
-        <center>
-          <span class="far fa-copyright"></span><span> 2020 All rights reserved.</span>
-        </center>
-      </div>
-    </footer>
+    </div>
+    <div class="sec1">
+      <h2 class="head">Contact Us</h2>
+      <form action="">
+        <p class="email">Email <br> <input type="email" name="Email ID" placeholder="john@abc.com" required ></p>
+        <p class="text">Message <br> <input type="text" name="Message" placeholder="Your Message Here" required></p>
+        <button class="submit">Submit</button>
+
+      </form>
+    </div>
+  </div>
+</footer>
+  
 
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
