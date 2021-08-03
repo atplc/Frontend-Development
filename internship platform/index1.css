@@ -205,11 +205,12 @@ img{
 .login .close-btn:hover{
   color: red;
 }
+
 .btn-show{
   background: #fff;
   padding: 10px 20px;
   font-size: 20px;
-  
+ 
   color: #3498db;
   cursor: pointer;
   position: absolute;
