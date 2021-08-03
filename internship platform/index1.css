@@ -63,7 +63,7 @@ input[type="checkbox"]{
     padding:0 40px 0px 50px;
   }
 }
-@media (max-width:920px){
+@media (max-width:1090px){
   nav .menu-btn i{
     display:block;
   }
@@ -462,7 +462,7 @@ body{
   padding: 8px 9px;
 }
 
-@media (max-width: 896px){
+@media (max-width: 1090px){
   #section1{
       flex-direction: column;
       background-color: white;
@@ -575,6 +575,7 @@ text-align: center;
     position: relative;
     width: 80%;
     text-align: center;
+    margin:auto;
   }
   
   .image {
