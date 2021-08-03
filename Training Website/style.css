@@ -145,16 +145,20 @@ h5 {
     width:100%;
     height:auto;
     /* align-items: center; */
+    padding: 2% 4%;
+    display: flex;
+    justify-content: center;
 }
 
 .container3{
     border: solid 2px #ccc;
-    height:100%;
-    width:90%;
+    /* height:100%; */
+    width:80%;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+
 
 .right_sec{
     width:60%;
@@ -167,109 +171,18 @@ h5 {
 
 .left_sec{
     width:40%;
+    padding:1rem;
 }
-/* eedbackContainer .data{
-    width:30%;
-    padding:0.2rem 0;
-    margin:1rem 0;
-    margin-left: 2%;
-    border: none;
-    border-radius: .2rem;
-    border-bottom: .2rem solid #888;
-    font-size: 1.1rem;
-    color:#444;
-    text-transform: none;
-    cursor:text;
-}
-.feedbackContainer .data2{
-    margin-left: 2%;
-    margin-top: 1rem;
-}
-
-.feedbackContainer .mygender{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-.feedbackContainer .rating{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.feedbackContainer .mygender label{
-    margin-left: 2%;
-    color: #555;
-}
-.feedbackContainer .calendar label{
-    margin-left: 2%;
-    color: #555;
-}
-.feedbackContainer .syllabus label{
-    margin-left: 2%;
-    color: #555;
-    margin-top: 1rem;
-}
-.feedbackContainer .rating input{
-    margin-left: 2%;
-    color: #555;
-    margin-top: 5px;
-}
-
-.feedbackContainer .formDetails input:focus{
-    outline:0;
-}
-
-.feedbackImage{
+.left_sec >h3{
     text-align: center;
+    font-size: 25px;
+
 }
-
-.feedbackImage img{
-    border-radius: 10rem;
-    width: 20%;
-    margin-top: -5%;
+input{
+    width:90%;
+    margin: 1rem;
+    font-size: 20px;
 }
-
-.feedbackContainer form{
-    padding: 4%;
-    
-}
-
-.feedbackContainer form .row{
-    margin-bottom: -3%;
-    
-}
-
-.feedbackContainer form h2{
-    margin-bottom: 7%;
-    margin-top: -5%;
-    text-align: center;
-    color: #B088F9;
-    font-size: 50px;
-}
-
-.feedbackContainer .btn{
-    width: 20%;
-    height: 5%;
-    border: none;
-    border-radius: 2rem;
-    padding: 1.5%;
-    margin-left: 2%;
-    margin-bottom: 2rem;
-    margin-top: 1rem;
-    font-size: 15px;
-    background: #777;
-    color: #fff;
-    cursor: pointer;
-}
-
-.feedbackContainer .row h2{
-    margin-left: 2%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: #777;
-    font-size: 1rem;
-    text-align: left;
-} */
-
 #contact {
     background-color: #B088F9;
     margin: 0;
@@ -408,10 +321,6 @@ nav ul li:hover {
     display: inline;
 }
 
-#feedback {
-    padding: 2% 4%;
-    display: flex;
-}
 
 /* .feedbackpara {} */
 
