@@ -160,10 +160,15 @@ img{
 .login .close-btn:hover{
   color: red;
 }
+
 .btn-show{
   background: #fff;
   padding: 10px 20px;
   font-size: 20px;
+<<<<<<< HEAD
+ 
+=======
+>>>>>>> e3eb2dcd5b7d345d8f05907f7895710ccd41929d
   color: #3498db;
   cursor: pointer;
   position: absolute;
