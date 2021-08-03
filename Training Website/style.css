@@ -79,16 +79,13 @@ h2 {
     top: 0px;
     margin: 0;
 }
-#course{
-    background-color: rgb(228, 227, 227);
-}
+
 #courses {
    display: flex;
    flex-direction: column;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 29px;
-    padding: 4%;
-    
+    margin: 4%;
 }
 .course-split{
    display: flex;;
@@ -140,35 +137,24 @@ h5 {
 
 }
 
-#feedback{
-    background-color: #fff;
-    width:100%;
-    height:auto;
-    /* align-items: center; */
-}
-
-.container3{
-    border: solid 2px #ccc;
-    height:100%;
-    width:90%;
+.feedbackContainer{
+    background: #fff;
+    opacity: 10;
+    /* margin-top: 10%;
+    margin-bottom: 3%;
+    margin-left: 8%;
+    margin-right: 8%; */
+    box-shadow: #666;
+    border-radius: 2rem;
     display:flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
 }
 
-.right_sec{
-    width:60%;
+.row{
 }
 
-
-.right_sec >img{
-    width:100%;
-}
-
-.left_sec{
-    width:40%;
-}
-/* eedbackContainer .data{
+.feedbackContainer .data{
     width:30%;
     padding:0.2rem 0;
     margin:1rem 0;
@@ -268,7 +254,7 @@ h5 {
     color: #777;
     font-size: 1rem;
     text-align: left;
-} */
+}
 
 #contact {
     background-color: #B088F9;
