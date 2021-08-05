@@ -162,15 +162,19 @@ img{
   background: #fff;
   padding: 10px 20px;
   font-size: 20px;
-  color: #3498db;
+  color: #B088F9;
   cursor: pointer;
   position: absolute;
   top: 5px;
   right: 10px;
+  font-weight: 700;
+
 }
  .btn-show:hover{
-  color: #B088F9;
-  font-weight: 700;
+  border-radius: 35px;
+  background-color: #B088F9;
+  color: white;
+  
  }
 
 input[type="checkbox"]{
