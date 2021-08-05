@@ -144,16 +144,28 @@ h5 {
     background-color: #fff;
     width:100%;
     height:auto;
-    /* align-items: center; */
+    padding: 5%;
+    display: flex; 
+    background: url("images/18410.jpg") ;
+    background-repeat: no-repeat; 
+     background-size: cover;
+
 }
 
 .container3{
-    border: solid 2px #ccc;
-    height:100%;
-    width:90%;
+    
+    border: solid 2px #ccc ;
+    -moz-box-shadow: 0 0 5px 3px #9d9d9d;
+    -webkit-box-shadow: 0 0 3px 5px #9d9d9d;
+    box-shadow: 0 0 5px 3px #9d9d9d;
+    height:auto;
+    width:80%;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: auto;
+    /* background-color: rgba(201, 201, 201, 0.925); */
+    background-color: rgb(241, 240, 240);
 }
 
 .right_sec{
@@ -168,107 +180,93 @@ h5 {
 .left_sec{
     width:40%;
 }
-/* eedbackContainer .data{
-    width:30%;
-    padding:0.2rem 0;
+.left_sec > h2{
+    text-align: center;
     margin:1rem 0;
-    margin-left: 2%;
-    border: none;
-    border-radius: .2rem;
-    border-bottom: .2rem solid #888;
-    font-size: 1.1rem;
-    color:#444;
-    text-transform: none;
-    cursor:text;
 }
-.feedbackContainer .data2{
-    margin-left: 2%;
-    margin-top: 1rem;
+form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
-
-.feedbackContainer .mygender{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+input , textarea {
+    justify-content: center;
+    width:70%;
+    height: auto;
+    border-radius: 30px;
+    color:grey;
+    text-align: center;
+    margin: auto;
+    border-style: none;
 }
-.feedbackContainer .rating{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.feedbackContainer .mygender label{
-    margin-left: 2%;
-    color: #555;
-}
-.feedbackContainer .calendar label{
-    margin-left: 2%;
-    color: #555;
-}
-.feedbackContainer .syllabus label{
-    margin-left: 2%;
-    color: #555;
-    margin-top: 1rem;
-}
-.feedbackContainer .rating input{
-    margin-left: 2%;
-    color: #555;
-    margin-top: 5px;
-}
-
-.feedbackContainer .formDetails input:focus{
-    outline:0;
-}
-
-.feedbackImage{
+textarea{
+    padding:1rem 0;
+    height: auto;
     text-align: center;
 }
-
-.feedbackImage img{
-    border-radius: 10rem;
-    width: 20%;
-    margin-top: -5%;
-}
-
-.feedbackContainer form{
-    padding: 4%;
-    
-}
-
-.feedbackContainer form .row{
-    margin-bottom: -3%;
-    
-}
-
-.feedbackContainer form h2{
-    margin-bottom: 7%;
-    margin-top: -5%;
+.formDetails{
+    background-color: #B088F9;
+    justify-content: center;
+    width:70%;
+    height: auto;
+    border-radius: 30px;
     text-align: center;
-    color: #B088F9;
-    font-size: 50px;
+    margin: auto;
+    border-style: none;
 }
 
-.feedbackContainer .btn{
-    width: 20%;
-    height: 5%;
-    border: none;
-    border-radius: 2rem;
-    padding: 1.5%;
-    margin-left: 2%;
-    margin-bottom: 2rem;
-    margin-top: 1rem;
-    font-size: 15px;
-    background: #777;
-    color: #fff;
-    cursor: pointer;
+@media (max-width: 1220px){
+    #feedback{
+        padding: 3%;
+    }
+    .left_sec > h2{
+        font-size: 32px;
+        margin:0.5rem 0;
+    }
+    textarea{
+        padding:0rem 0;
+        height: 2.5rem;
+        
+    }
+
 }
 
-.feedbackContainer .row h2{
-    margin-left: 2%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: #777;
-    font-size: 1rem;
-    text-align: left;
-} */
+@media (max-width: 950px){
+    #feedback{
+        padding: 3%;
+    }
+    .left_sec > h2{
+        font-size: 20px;
+        margin:0.5rem 0;
+    }
+    textarea{
+        height: 2.5rem;
+        
+    }
+
+}
+
+@media (max-width: 850px){
+    #feedback{
+        padding: 3%;
+    }
+    .container3{
+        flex-direction: column;
+    }
+    .right_sec{
+        width:100%;
+    }
+    
+    .left_sec{
+        width:100%;
+    }
+    .left_sec > h2{
+        text-align: center;
+        margin:2rem 0;
+    }
+  
+    
+}
 
 #contact {
     background-color: #B088F9;
@@ -306,9 +304,7 @@ h5 {
     #contact {
         grid-template-columns: 1fr;
     }
-    .feedgrid {
-        grid-template-columns: 1fr;
-    }
+    
 }
 
 @media screen and (min-width:700px) {
@@ -321,9 +317,7 @@ h5 {
     #contact {
         grid-template-columns: 1fr 1fr;
     }
-    .feedgrid {
-        grid-template-columns: 1fr 1fr;
-    }
+    
 }
 
 @media screen and (min-width:1000px) {
@@ -407,14 +401,6 @@ nav ul li:hover {
     margin: 0 auto;
     display: inline;
 }
-
-#feedback {
-    padding: 2% 4%;
-    display: flex;
-}
-
-/* .feedbackpara {} */
-
 .copyright {
     background-color: #B088F9;
     font-size: 15px;
