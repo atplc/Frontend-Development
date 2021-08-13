@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+    <div id="feedback-form">
+        <div class="feed_head">
+        <div id="close-btn" onclick="closeForm();">
+          X
+        </div>
+        <div class="title">
+          
+          <img src="preview.gif" alt="">
+        </div>
+        </div>
+        <div class="feed_data">
+            <div class="feed_data_inner">
+                <div>
+                    <h2>Get in touch!!!</h2>
+                </div>
+        <div class="row">
+          <input type="text" placeholder="First Name">
+          <input type="text" placeholder="Last Name">    
+        </div>
+        <div class="row">
+          <input type="text" placeholder="Email Address"> 
+          <input type="text" placeholder="Mobile Number"> 
+        </div>  
+        <div class="row">
+          <textarea placeholder="Share comments and suggetions here..."></textarea>   
+        </div>  
+        <div class="submit-btn-row">
+          <button onclick="submitFeedback();">Submit</button>
+        </div>
+      </div>
+    </div>
+    </div>
+      <div class="edit-btn" id="edit-btn" onclick="toggleForm(this)">
+        <i class="fa fa-pencil" aria-hidden="true"></i>
+      </div>
+    
+     <script src="feedback.js"></script>
+</body>
+</html>

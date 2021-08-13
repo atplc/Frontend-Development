@@ -1,0 +1,93 @@
+#feedback-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.feedbacks{
+    width: 25%;
+    box-shadow: 0px 5px 10px #707070;
+    padding: 1em;
+    background-color: #DAD0C2;    
+}
+.feedbacker-info{
+   display: flex;
+    width: 100%;
+   
+    
+}
+.feedbacker-img{
+    width: 100%;
+}
+.feedbacks img{
+    width: 100%;
+    object-fit: contain;
+}
+.feedbacker-background{
+    width: 50%;
+   display: none;
+   
+}
+.feedbacker-background p{
+    width: 100%;
+}
+.feedbacks:hover .feedbacker-img img{
+    transition: 0.5s;
+}
+.feedbacks:hover .feedbacker-img{
+   width: 50%;
+   transition: 0.5s;
+}
+.feedbacks:hover .feedbacker-background{
+    
+    display:block;
+}
+.feedbacker-background h2,h3{
+    margin: 0;
+    margin-left:0.5em;
+}
+.feedbacker-thought{
+    padding: 1em;
+    font-size: 1.2rem;
+}
+.feedbacker-background h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+.feedbacker-background h3{
+    font-size: 1rem;
+    margin-left: 0.7em;
+    font-weight: normal;
+}
+
+
+@media (max-width: 1192px){
+    
+    #feedback-container{
+        flex-direction: column;
+    }
+    .feedbacks{
+        display: flex;
+        width: 100%;
+        margin-bottom: 1em;
+    }
+    .feedbacker-info{
+        flex-direction: column;
+        width: 50%;
+    }
+    .feedbacker-img{
+        height: 100%;
+    }
+    .feedbacks:hover .feedbacker-background{
+    
+        display: none;
+    }
+    .feedbacks:hover .feedbacker-img{
+        width: 100%;
+        transition: 0.5s;
+     }
+   .feedbacker-thought{
+       width: 50%;
+   }
+}
+/***************************************************************************************************************************/
